@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a56165b1257820044a83b5a70163b4d5, type: 3}
-  m_Name: SimpleSeekPointClick
+  m_Script: {fileID: 11500000, guid: 696176ee6d36ba94b922fed01e72136f, type: 3}
+  m_Name: SimpleKeyboard 1
   m_EditorClassIdentifier: 
-  _mass: 30
-  _maxDesiredVelocity: 20
-  _maxSteeringForce: 20
-  _maxSpeed: 10
+  _mass: 70
+  _maxDesiredVelocity: 3
+  _maxSteeringForce: 3
+  _maxSpeed: 3

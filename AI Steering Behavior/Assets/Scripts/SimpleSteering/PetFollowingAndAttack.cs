@@ -12,7 +12,7 @@ namespace SimpleSteering
     {
         [Header("Steering Settings")]
         [SerializeField]
-        private SteeringSettings _steeringSettings; // steering settings of this npc
+        private SimpleSteeringSettings _steeringSettings; // steering settings of this npc
 
         [Header("")]
         [SerializeField]
@@ -34,7 +34,7 @@ namespace SimpleSteering
             _position = transform.position;
             _positionTarget = _position;
 
-            //_playerTransform = FindObjectOfType<PlayerTag>().GetComponent<Transform>();
+
             _enemyTransform = FindObjectOfType<EnemyTag>().GetComponent<Transform>();
         }
 

@@ -6,7 +6,7 @@ namespace SimpleSteering
     {
         [Header("Steering Settings")]
         [SerializeField]
-        private SteeringSettings _steeringSettings; // steering settings of this npc
+        private SimpleSteeringSettings _steeringSettings; // steering settings of this npc
 
         private Vector3 _position = Vector3.zero; // current position
         private Vector3 _positionTarget = Vector3.zero; // target position

@@ -9,10 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a56165b1257820044a83b5a70163b4d5, type: 3}
-  m_Name: SimpleKeyboard 1
+  m_Script: {fileID: 11500000, guid: 49fe4e15c4c51904c933af51a3bf56b0, type: 3}
+  m_Name: SteeringSettings
   m_EditorClassIdentifier: 
-  _mass: 40
-  _maxDesiredVelocity: 70
+  _mass: 50
+  _maxDesiredVelocity: 20
   _maxSteeringForce: 20
-  _maxSpeed: 40
+  _maxSpeed: 50
+  _arriveDistance: 1
